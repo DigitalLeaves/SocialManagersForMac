@@ -107,13 +107,57 @@ The Social Manager Delegate will have to implement the following methods:
 
 * **socialManager:operationNotPermitted:** the SocialManager will invoke this method on its delegate to inform it that the requested operation is not supported by this concrete Social Manager. You can check if a concrete operation is supported by a SMSocialManager subclass by invoking the method *requestAllowed:* prior to triggering the request.
 
-@optional
-
-/** 
- * @brief informs the delegate that the login was refused for this social network
- */
-* **socialManager:loginRefusedWithError:** an optional method, required by some social managers (like Facebook SM) that is invoked to 
+* **socialManager:loginRefusedWithError:** an optional method, required by some social managers (like Facebook SM) that is invoked to inform that the login was refused in the current device, so no requests are available. The login status of a SMSocialManager subclass can be checked by the property *state*.
 
 
 # Post Window
 
+For convenience, Social Managers for Mac includes a post window dialog for every SMSocialManager subclass that returns a iOS7 like window to post a message with or without images. This windows have been designed to resemble as closely as possible to the share dialogs from iOS 7. In order to use the window, you have to call the SMSocialManager subclass's method *postWindowWithMessage:image:andDelegate:*.
+
+```
+self.facebookSM = [SMFacebookSocialManager sharedInstance];
+self.facebookSM.delegate = self;
+self.facebookSM.audience = ACFacebookAudienceFriends;
+[self.facebookSM postWindowWithMessage: message image:image andDelegate:self];
+```
+
+The delegate is optional, and will be sent messages when the user clicks the "post" (*postWindowForSocialManager:isPostingMessage:toAccountName:*) or "cancel" (*postWindowForSocialManagerCancelledByUser:*) buttons, so you can update your UI accordingly.
+
+# Internationalization
+
+Social Managers for Mac is ready to be included in your internationalized project. You just have to define the following strings in your Localized.string:
+
+* @"Cancel": cancel button.
+* @"Accept": accept button.
+* @"Back": button for going back.
+* @"None": for when there are no options.
+* @"Audience": the audience property for Facebook's posts.
+* @"Unable to get location": if the user's location can not be retrieved.
+* @"Facebook": in case you need/want to change this in your language.
+* @"Twitter": in case you need/want to change this in your language.
+* @"It seems that you are not logged into Facebook. Maybe the application does not have permission for accessing your Facebook account.": self explanatory.
+* @"It seems that you are not logged into Twitter. Maybe the application does not have permission for ussing your Twitter accounts.": self explanatory.
+ 
+# License
+
+This code is licensed under the MIT license. You are free to use this code, expand on it, share it, and include it on your commercial or non-commercial projects, but if you do, and find it useful, please consider to send me a message, I would like to hear from you.
+
+Copyright (c) 2014 Ignacio Nieto Carvajal
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
