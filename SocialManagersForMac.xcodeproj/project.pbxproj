@@ -133,7 +133,7 @@
 		668D371E18BD2ED900514701 = {
 			isa = PBXGroup;
 			children = (
-				668D373018BD2ED900514701 /* SocialManagersForMac */,
+				668D373018BD2ED900514701 /* Source code */,
 				668D372918BD2ED900514701 /* Frameworks */,
 				668D372818BD2ED900514701 /* Products */,
 			);
@@ -170,16 +170,17 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		668D373018BD2ED900514701 /* SocialManagersForMac */ = {
+		668D373018BD2ED900514701 /* Source code */ = {
 			isa = PBXGroup;
 			children = (
-				668D375E18BD2F2C00514701 /* SocialManager */,
+				668D375E18BD2F2C00514701 /* SocialManagersForMac */,
 				668D373C18BD2ED900514701 /* SMAppDelegate.h */,
 				668D373D18BD2ED900514701 /* SMAppDelegate.m */,
 				668D373F18BD2ED900514701 /* MainMenu.xib */,
 				668D374218BD2ED900514701 /* Images.xcassets */,
 				668D373118BD2ED900514701 /* Supporting Files */,
 			);
+			name = "Source code";
 			path = SocialManagersForMac;
 			sourceTree = "<group>";
 		};
@@ -195,7 +196,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		668D375E18BD2F2C00514701 /* SocialManager */ = {
+		668D375E18BD2F2C00514701 /* SocialManagersForMac */ = {
 			isa = PBXGroup;
 			children = (
 				664E92CD18BE66CF006C8460 /* Protocols */,
@@ -219,7 +220,7 @@
 				664E92D118BE8C72006C8460 /* SMFacebookPostViewController.m */,
 				664E92D218BE8C72006C8460 /* SMFacebookPostViewController.xib */,
 			);
-			name = SocialManager;
+			name = SocialManagersForMac;
 			sourceTree = "<group>";
 		};
 		66A67B2718BE43AB00937E01 /* Categories */ = {
