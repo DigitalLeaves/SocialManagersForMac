@@ -74,7 +74,7 @@
             }
         } else {
             self.imageView.image = [NSImage imageNamed:@"SMdefaultImage"];
-            self.textView.string = kSMFacebookNotLoggedInMessage;
+            self.textView.string = NSLocalizedString(kSMFacebookNotLoggedInMessage, kSMFacebookNotLoggedInMessage);
             [self.postButton setEnabled:NO];
         }
     }

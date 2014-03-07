@@ -80,7 +80,7 @@ static inline NSInteger calculateCharactersLeft(NSInteger messageLength, BOOL in
             [self updateCharactersLeft];
         } else {
             self.imageView.image = [NSImage imageNamed:@"SMdefaultImage"];
-            self.textView.string = kSMTwitterNotLoggedInMessage;
+            self.textView.string = NSLocalizedString(kSMTwitterNotLoggedInMessage, kSMTwitterNotLoggedInMessage);
             [self.postButton setEnabled:NO];
         }
     }
