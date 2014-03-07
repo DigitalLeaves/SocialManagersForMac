@@ -10,7 +10,7 @@
 
 #define kTSMFacebookDefaultMaxDataSize  1048576     // 1 MB
 #define kTSMFacebookPostName            @"message"
-#define kTSMFacebookAppID               @"1428692247369019"
+#define kTSMFacebookAppID               @"ENTERYOURAPPIDHERE"
 #define kTSMFacebookImageName           @"picture"
 
 #define kTSMFacebookViewControllerNibName   @"SMFacebookPostViewController"

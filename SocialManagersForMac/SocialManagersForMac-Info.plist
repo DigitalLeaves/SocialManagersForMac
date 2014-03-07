@@ -22,10 +22,6 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>FacebookAppId</key>
-	<string>1428692247369019</string>
-	<key>FacebookDisplayName</key>
-	<string>Social Managers For Mac</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.education</string>
 	<key>LSMinimumSystemVersion</key>
@@ -36,14 +32,5 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
-	<key>URL types</key>
-	<array>
-		<dict>
-			<key>URL Schemes</key>
-			<array>
-				<string>fb1428692247369019</string>
-			</array>
-		</dict>
-	</array>
 </dict>
 </plist>
