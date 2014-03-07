@@ -75,9 +75,44 @@ Note that the SMFacebookSocialManager has an 'audience' property that allows it 
 
 ## Posting messages with images
 
+For posting messages with images, you can use the method *postMessage:forUser:withImage:* like this:
+
+```
+SMTwitterSocialManager * twitterSM = [SMTwitterSocialManager sharedInstance];
+twitterSM.delegate = self;
+[twitterSM postMessage: message message forUser: username withImage: image];
+```
+
+where image is a *NSImage*.
+
 ## Posting messages with location.
 
+For posting with location data, you have two methods: *postMessage:forUser:withLocation:* for just a text post and *postMessage:forUser:withImage:andLocation:* for including an image. Both methods use a CLLocationCoordinate2D for sending the user's location (basically a longitude and a latitude).
+
+```
+SMFacebookSocialManager * facebookSM = [SMFacebookSocialManager sharedInstance];
+facebookSM.delegate = self;
+facebookSM.audience = ACFacebookAudienceOnlyMe;
+[facebookSM postMessage: @"Hello, this is a message" forUser:username withLocation:location];
+```
+
 # Social Manager Delegate methods
+
+The Social Manager Delegate will have to implement the following methods:
+
+* **socialManager:requestSucceedWithReturnCode:andResult:** this method will be invoked if the request was successful, and the returning JSON information will be returned in a NSDictionary.
+
+
+* **socialManager:requestFailedWithReturnCode:andError:** this method indicates that the request failed, and an return code and related error are returned.
+
+* **socialManager:operationNotPermitted:** the SocialManager will invoke this method on its delegate to inform it that the requested operation is not supported by this concrete Social Manager. You can check if a concrete operation is supported by a SMSocialManager subclass by invoking the method *requestAllowed:* prior to triggering the request.
+
+@optional
+
+/** 
+ * @brief informs the delegate that the login was refused for this social network
+ */
+* **socialManager:loginRefusedWithError:** an optional method, required by some social managers (like Facebook SM) that is invoked to 
 
 
 # Post Window
