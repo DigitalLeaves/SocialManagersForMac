@@ -7,8 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "SMTwitterSocialManager.h"
+#import "SMFacebookSocialManager.h"
 
-@interface SMAppDelegate : NSObject <NSApplicationDelegate>
+@interface SMAppDelegate : NSObject <NSApplicationDelegate, SMSocialManagerDelegate, SMSocialManagerPostWindowDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
 

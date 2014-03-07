@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		664E92D318BE8C72006C8460 /* SMFacebookPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 664E92D118BE8C72006C8460 /* SMFacebookPostViewController.m */; };
+		664E92D418BE8C72006C8460 /* SMFacebookPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664E92D218BE8C72006C8460 /* SMFacebookPostViewController.xib */; };
+		6654F20118C4742E00070F24 /* SMLeftArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6654F1FD18C4742E00070F24 /* SMLeftArrow.png */; };
+		6654F20218C4742E00070F24 /* SMLeftArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6654F1FE18C4742E00070F24 /* SMLeftArrow@2x.png */; };
+		6654F20318C4742E00070F24 /* SMRightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6654F1FF18C4742E00070F24 /* SMRightArrow.png */; };
+		6654F20418C4742E00070F24 /* SMRightArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6654F20018C4742E00070F24 /* SMRightArrow@2x.png */; };
 		668D372B18BD2ED900514701 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668D372A18BD2ED900514701 /* Cocoa.framework */; };
 		668D373518BD2ED900514701 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 668D373318BD2ED900514701 /* InfoPlist.strings */; };
 		668D373718BD2ED900514701 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 668D373618BD2ED900514701 /* main.m */; };
@@ -14,23 +20,33 @@
 		668D373E18BD2ED900514701 /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 668D373D18BD2ED900514701 /* SMAppDelegate.m */; };
 		668D374118BD2ED900514701 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 668D373F18BD2ED900514701 /* MainMenu.xib */; };
 		668D374318BD2ED900514701 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668D374218BD2ED900514701 /* Images.xcassets */; };
-		668D374A18BD2EDA00514701 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668D374918BD2EDA00514701 /* XCTest.framework */; };
-		668D374B18BD2EDA00514701 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668D372A18BD2ED900514701 /* Cocoa.framework */; };
-		668D375318BD2EDA00514701 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 668D375118BD2EDA00514701 /* InfoPlist.strings */; };
-		668D375518BD2EDA00514701 /* SocialManagersForMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 668D375418BD2EDA00514701 /* SocialManagersForMacTests.m */; };
+		668D376F18BD2F3700514701 /* SMAdditionalMultipartData.m in Sources */ = {isa = PBXBuildFile; fileRef = 668D376018BD2F3700514701 /* SMAdditionalMultipartData.m */; };
+		668D377018BD2F3700514701 /* SMdefaultImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668D376118BD2F3700514701 /* SMdefaultImage.jpg */; };
+		668D377118BD2F3700514701 /* SMFacebookSocialManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 668D376318BD2F3700514701 /* SMFacebookSocialManager.m */; };
+		668D377418BD2F3700514701 /* SMSocialManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 668D376918BD2F3700514701 /* SMSocialManager.m */; };
+		668D377518BD2F3700514701 /* SMSocialManagerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 668D376C18BD2F3700514701 /* SMSocialManagerWindow.m */; };
+		668D377618BD2F3700514701 /* SMTwitterSocialManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 668D376E18BD2F3700514701 /* SMTwitterSocialManager.m */; };
+		668D377818BD317900514701 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668D377718BD317900514701 /* Accounts.framework */; };
+		668D377A18BD317E00514701 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668D377918BD317E00514701 /* Social.framework */; };
+		668D377D18BD3EA100514701 /* NSImage+ResizeAndCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 668D377C18BD3EA100514701 /* NSImage+ResizeAndCrop.m */; };
+		668D378018BD3EB500514701 /* NSImage+NSDataRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 668D377F18BD3EB500514701 /* NSImage+NSDataRepresentation.m */; };
+		66A67B2318BE274F00937E01 /* SMTwitterPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A67B2118BE274F00937E01 /* SMTwitterPostViewController.m */; };
+		66A67B2418BE274F00937E01 /* SMTwitterPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66A67B2218BE274F00937E01 /* SMTwitterPostViewController.xib */; };
+		66A67B2618BE409F00937E01 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A67B2518BE409F00937E01 /* QuartzCore.framework */; };
+		66A67B2B18BE447B00937E01 /* NSColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A67B2A18BE447B00937E01 /* NSColorView.m */; };
+		66C2BB2118C502F00079253C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C2BB2018C502F00079253C /* CoreLocation.framework */; };
+		66C2BB2418C504390079253C /* SMnothing.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C2BB2218C504390079253C /* SMnothing.png */; };
+		66C2BB2518C504390079253C /* SMnothing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C2BB2318C504390079253C /* SMnothing@2x.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		668D374C18BD2EDA00514701 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 668D371F18BD2ED900514701 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 668D372618BD2ED900514701;
-			remoteInfo = SocialManagersForMac;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		664E92D018BE8C72006C8460 /* SMFacebookPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFacebookPostViewController.h; sourceTree = "<group>"; };
+		664E92D118BE8C72006C8460 /* SMFacebookPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMFacebookPostViewController.m; sourceTree = "<group>"; };
+		664E92D218BE8C72006C8460 /* SMFacebookPostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMFacebookPostViewController.xib; sourceTree = "<group>"; };
+		6654F1FD18C4742E00070F24 /* SMLeftArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SMLeftArrow.png; sourceTree = "<group>"; };
+		6654F1FE18C4742E00070F24 /* SMLeftArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SMLeftArrow@2x.png"; sourceTree = "<group>"; };
+		6654F1FF18C4742E00070F24 /* SMRightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SMRightArrow.png; sourceTree = "<group>"; };
+		6654F20018C4742E00070F24 /* SMRightArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SMRightArrow@2x.png"; sourceTree = "<group>"; };
 		668D372718BD2ED900514701 /* SocialManagersForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialManagersForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		668D372A18BD2ED900514701 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		668D372D18BD2ED900514701 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -45,11 +61,34 @@
 		668D373D18BD2ED900514701 /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
 		668D374018BD2ED900514701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		668D374218BD2ED900514701 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		668D374818BD2EDA00514701 /* SocialManagersForMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialManagersForMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		668D374918BD2EDA00514701 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		668D375018BD2EDA00514701 /* SocialManagersForMacTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocialManagersForMacTests-Info.plist"; sourceTree = "<group>"; };
-		668D375218BD2EDA00514701 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		668D375418BD2EDA00514701 /* SocialManagersForMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialManagersForMacTests.m; sourceTree = "<group>"; };
+		668D375F18BD2F3700514701 /* SMAdditionalMultipartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAdditionalMultipartData.h; sourceTree = "<group>"; };
+		668D376018BD2F3700514701 /* SMAdditionalMultipartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMAdditionalMultipartData.m; sourceTree = "<group>"; };
+		668D376118BD2F3700514701 /* SMdefaultImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SMdefaultImage.jpg; sourceTree = "<group>"; };
+		668D376218BD2F3700514701 /* SMFacebookSocialManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFacebookSocialManager.h; sourceTree = "<group>"; };
+		668D376318BD2F3700514701 /* SMFacebookSocialManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMFacebookSocialManager.m; sourceTree = "<group>"; };
+		668D376818BD2F3700514701 /* SMSocialManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSocialManager.h; sourceTree = "<group>"; };
+		668D376918BD2F3700514701 /* SMSocialManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSocialManager.m; sourceTree = "<group>"; };
+		668D376A18BD2F3700514701 /* SMSocialManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSocialManagerDelegate.h; sourceTree = "<group>"; };
+		668D376B18BD2F3700514701 /* SMSocialManagerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSocialManagerWindow.h; sourceTree = "<group>"; };
+		668D376C18BD2F3700514701 /* SMSocialManagerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSocialManagerWindow.m; sourceTree = "<group>"; };
+		668D376D18BD2F3700514701 /* SMTwitterSocialManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTwitterSocialManager.h; sourceTree = "<group>"; };
+		668D376E18BD2F3700514701 /* SMTwitterSocialManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTwitterSocialManager.m; sourceTree = "<group>"; };
+		668D377718BD317900514701 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		668D377918BD317E00514701 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		668D377B18BD3EA100514701 /* NSImage+ResizeAndCrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+ResizeAndCrop.h"; sourceTree = "<group>"; };
+		668D377C18BD3EA100514701 /* NSImage+ResizeAndCrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+ResizeAndCrop.m"; sourceTree = "<group>"; };
+		668D377E18BD3EB500514701 /* NSImage+NSDataRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+NSDataRepresentation.h"; sourceTree = "<group>"; };
+		668D377F18BD3EB500514701 /* NSImage+NSDataRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+NSDataRepresentation.m"; sourceTree = "<group>"; };
+		66A67B2018BE274F00937E01 /* SMTwitterPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTwitterPostViewController.h; sourceTree = "<group>"; };
+		66A67B2118BE274F00937E01 /* SMTwitterPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTwitterPostViewController.m; sourceTree = "<group>"; };
+		66A67B2218BE274F00937E01 /* SMTwitterPostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMTwitterPostViewController.xib; sourceTree = "<group>"; };
+		66A67B2518BE409F00937E01 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		66A67B2918BE447B00937E01 /* NSColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSColorView.h; sourceTree = "<group>"; };
+		66A67B2A18BE447B00937E01 /* NSColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSColorView.m; sourceTree = "<group>"; };
+		66C2BB2018C502F00079253C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		66C2BB2218C504390079253C /* SMnothing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SMnothing.png; sourceTree = "<group>"; };
+		66C2BB2318C504390079253C /* SMnothing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SMnothing@2x.png"; sourceTree = "<group>"; };
+		66CA1C3718C9CAED00449BF9 /* SMSocialManagerPostWindowDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMSocialManagerPostWindowDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,27 +96,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66C2BB2118C502F00079253C /* CoreLocation.framework in Frameworks */,
+				66A67B2618BE409F00937E01 /* QuartzCore.framework in Frameworks */,
+				668D377A18BD317E00514701 /* Social.framework in Frameworks */,
+				668D377818BD317900514701 /* Accounts.framework in Frameworks */,
 				668D372B18BD2ED900514701 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		668D374518BD2EDA00514701 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				668D374B18BD2EDA00514701 /* Cocoa.framework in Frameworks */,
-				668D374A18BD2EDA00514701 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6603C68118BE4E8C004ED41E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				66C2BB2218C504390079253C /* SMnothing.png */,
+				66C2BB2318C504390079253C /* SMnothing@2x.png */,
+				6654F1FD18C4742E00070F24 /* SMLeftArrow.png */,
+				6654F1FE18C4742E00070F24 /* SMLeftArrow@2x.png */,
+				6654F1FF18C4742E00070F24 /* SMRightArrow.png */,
+				6654F20018C4742E00070F24 /* SMRightArrow@2x.png */,
+				668D376118BD2F3700514701 /* SMdefaultImage.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		664E92CD18BE66CF006C8460 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				668D376A18BD2F3700514701 /* SMSocialManagerDelegate.h */,
+				66CA1C3718C9CAED00449BF9 /* SMSocialManagerPostWindowDelegate.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
 		668D371E18BD2ED900514701 = {
 			isa = PBXGroup;
 			children = (
 				668D373018BD2ED900514701 /* SocialManagersForMac */,
-				668D374E18BD2EDA00514701 /* SocialManagersForMacTests */,
 				668D372918BD2ED900514701 /* Frameworks */,
 				668D372818BD2ED900514701 /* Products */,
 			);
@@ -87,7 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				668D372718BD2ED900514701 /* SocialManagersForMac.app */,
-				668D374818BD2EDA00514701 /* SocialManagersForMacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,8 +150,11 @@
 		668D372918BD2ED900514701 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				66C2BB2018C502F00079253C /* CoreLocation.framework */,
+				66A67B2518BE409F00937E01 /* QuartzCore.framework */,
+				668D377918BD317E00514701 /* Social.framework */,
+				668D377718BD317900514701 /* Accounts.framework */,
 				668D372A18BD2ED900514701 /* Cocoa.framework */,
-				668D374918BD2EDA00514701 /* XCTest.framework */,
 				668D372C18BD2ED900514701 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -115,6 +173,7 @@
 		668D373018BD2ED900514701 /* SocialManagersForMac */ = {
 			isa = PBXGroup;
 			children = (
+				668D375E18BD2F2C00514701 /* SocialManager */,
 				668D373C18BD2ED900514701 /* SMAppDelegate.h */,
 				668D373D18BD2ED900514701 /* SMAppDelegate.m */,
 				668D373F18BD2ED900514701 /* MainMenu.xib */,
@@ -136,22 +195,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		668D374E18BD2EDA00514701 /* SocialManagersForMacTests */ = {
+		668D375E18BD2F2C00514701 /* SocialManager */ = {
 			isa = PBXGroup;
 			children = (
-				668D375418BD2EDA00514701 /* SocialManagersForMacTests.m */,
-				668D374F18BD2EDA00514701 /* Supporting Files */,
+				664E92CD18BE66CF006C8460 /* Protocols */,
+				6603C68118BE4E8C004ED41E /* images */,
+				66A67B2818BE43B700937E01 /* Custom controls */,
+				66A67B2718BE43AB00937E01 /* Categories */,
+				668D375F18BD2F3700514701 /* SMAdditionalMultipartData.h */,
+				668D376018BD2F3700514701 /* SMAdditionalMultipartData.m */,
+				668D376218BD2F3700514701 /* SMFacebookSocialManager.h */,
+				668D376318BD2F3700514701 /* SMFacebookSocialManager.m */,
+				668D376818BD2F3700514701 /* SMSocialManager.h */,
+				668D376918BD2F3700514701 /* SMSocialManager.m */,
+				668D376B18BD2F3700514701 /* SMSocialManagerWindow.h */,
+				668D376C18BD2F3700514701 /* SMSocialManagerWindow.m */,
+				668D376D18BD2F3700514701 /* SMTwitterSocialManager.h */,
+				668D376E18BD2F3700514701 /* SMTwitterSocialManager.m */,
+				66A67B2018BE274F00937E01 /* SMTwitterPostViewController.h */,
+				66A67B2118BE274F00937E01 /* SMTwitterPostViewController.m */,
+				66A67B2218BE274F00937E01 /* SMTwitterPostViewController.xib */,
+				664E92D018BE8C72006C8460 /* SMFacebookPostViewController.h */,
+				664E92D118BE8C72006C8460 /* SMFacebookPostViewController.m */,
+				664E92D218BE8C72006C8460 /* SMFacebookPostViewController.xib */,
 			);
-			path = SocialManagersForMacTests;
+			name = SocialManager;
 			sourceTree = "<group>";
 		};
-		668D374F18BD2EDA00514701 /* Supporting Files */ = {
+		66A67B2718BE43AB00937E01 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				668D375018BD2EDA00514701 /* SocialManagersForMacTests-Info.plist */,
-				668D375118BD2EDA00514701 /* InfoPlist.strings */,
+				668D377E18BD3EB500514701 /* NSImage+NSDataRepresentation.h */,
+				668D377F18BD3EB500514701 /* NSImage+NSDataRepresentation.m */,
+				668D377B18BD3EA100514701 /* NSImage+ResizeAndCrop.h */,
+				668D377C18BD3EA100514701 /* NSImage+ResizeAndCrop.m */,
 			);
-			name = "Supporting Files";
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		66A67B2818BE43B700937E01 /* Custom controls */ = {
+			isa = PBXGroup;
+			children = (
+				66A67B2918BE447B00937E01 /* NSColorView.h */,
+				66A67B2A18BE447B00937E01 /* NSColorView.m */,
+			);
+			name = "Custom controls";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,24 +262,6 @@
 			productReference = 668D372718BD2ED900514701 /* SocialManagersForMac.app */;
 			productType = "com.apple.product-type.application";
 		};
-		668D374718BD2EDA00514701 /* SocialManagersForMacTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 668D375B18BD2EDA00514701 /* Build configuration list for PBXNativeTarget "SocialManagersForMacTests" */;
-			buildPhases = (
-				668D374418BD2EDA00514701 /* Sources */,
-				668D374518BD2EDA00514701 /* Frameworks */,
-				668D374618BD2EDA00514701 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				668D374D18BD2EDA00514701 /* PBXTargetDependency */,
-			);
-			name = SocialManagersForMacTests;
-			productName = SocialManagersForMacTests;
-			productReference = 668D374818BD2EDA00514701 /* SocialManagersForMacTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,11 +271,6 @@
 				CLASSPREFIX = SM;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Ignacio Nieto Carvajal";
-				TargetAttributes = {
-					668D374718BD2EDA00514701 = {
-						TestTargetID = 668D372618BD2ED900514701;
-					};
-				};
 			};
 			buildConfigurationList = 668D372218BD2ED900514701 /* Build configuration list for PBXProject "SocialManagersForMac" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -221,7 +286,6 @@
 			projectRoot = "";
 			targets = (
 				668D372618BD2ED900514701 /* SocialManagersForMac */,
-				668D374718BD2EDA00514701 /* SocialManagersForMacTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,18 +295,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6654F20118C4742E00070F24 /* SMLeftArrow.png in Resources */,
+				6654F20218C4742E00070F24 /* SMLeftArrow@2x.png in Resources */,
+				66A67B2418BE274F00937E01 /* SMTwitterPostViewController.xib in Resources */,
+				664E92D418BE8C72006C8460 /* SMFacebookPostViewController.xib in Resources */,
 				668D373518BD2ED900514701 /* InfoPlist.strings in Resources */,
+				66C2BB2518C504390079253C /* SMnothing@2x.png in Resources */,
+				6654F20418C4742E00070F24 /* SMRightArrow@2x.png in Resources */,
 				668D374318BD2ED900514701 /* Images.xcassets in Resources */,
+				6654F20318C4742E00070F24 /* SMRightArrow.png in Resources */,
+				668D377018BD2F3700514701 /* SMdefaultImage.jpg in Resources */,
 				668D373B18BD2ED900514701 /* Credits.rtf in Resources */,
 				668D374118BD2ED900514701 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		668D374618BD2EDA00514701 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				668D375318BD2EDA00514701 /* InfoPlist.strings in Resources */,
+				66C2BB2418C504390079253C /* SMnothing.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,28 +318,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66A67B2318BE274F00937E01 /* SMTwitterPostViewController.m in Sources */,
+				668D378018BD3EB500514701 /* NSImage+NSDataRepresentation.m in Sources */,
+				668D377518BD2F3700514701 /* SMSocialManagerWindow.m in Sources */,
+				668D377618BD2F3700514701 /* SMTwitterSocialManager.m in Sources */,
+				668D377118BD2F3700514701 /* SMFacebookSocialManager.m in Sources */,
+				668D376F18BD2F3700514701 /* SMAdditionalMultipartData.m in Sources */,
 				668D373E18BD2ED900514701 /* SMAppDelegate.m in Sources */,
+				668D377418BD2F3700514701 /* SMSocialManager.m in Sources */,
+				664E92D318BE8C72006C8460 /* SMFacebookPostViewController.m in Sources */,
+				668D377D18BD3EA100514701 /* NSImage+ResizeAndCrop.m in Sources */,
+				66A67B2B18BE447B00937E01 /* NSColorView.m in Sources */,
 				668D373718BD2ED900514701 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		668D374418BD2EDA00514701 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				668D375518BD2EDA00514701 /* SocialManagersForMacTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		668D374D18BD2EDA00514701 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 668D372618BD2ED900514701 /* SocialManagersForMac */;
-			targetProxy = 668D374C18BD2EDA00514701 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		668D373318BD2ED900514701 /* InfoPlist.strings */ = {
@@ -299,14 +358,6 @@
 				668D374018BD2ED900514701 /* Base */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		668D375118BD2EDA00514701 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				668D375218BD2EDA00514701 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -406,46 +457,6 @@
 			};
 			name = Release;
 		};
-		668D375C18BD2EDA00514701 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SocialManagersForMac.app/Contents/MacOS/SocialManagersForMac";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SocialManagersForMac/SocialManagersForMac-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "SocialManagersForMacTests/SocialManagersForMacTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		668D375D18BD2EDA00514701 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SocialManagersForMac.app/Contents/MacOS/SocialManagersForMac";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SocialManagersForMac/SocialManagersForMac-Prefix.pch";
-				INFOPLIST_FILE = "SocialManagersForMacTests/SocialManagersForMacTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -465,14 +476,7 @@
 				668D375A18BD2EDA00514701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		668D375B18BD2EDA00514701 /* Build configuration list for PBXNativeTarget "SocialManagersForMacTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				668D375C18BD2EDA00514701 /* Debug */,
-				668D375D18BD2EDA00514701 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
