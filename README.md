@@ -19,6 +19,16 @@ Integration is really simple, you just have to download the zip and include ever
 
 You also need to add the following frameworks to your project: Social.framework, Accounts.framework, CoreLocation.framework and QuartzCore.framework.
 
+## Facebook Integration
+
+Facebook integration is a little bit more tricky (as everything with Facebook). In order for it to work with facebook, you need to register for a Facebook Developer's account, and create a new Facebook App, follow the instructions of this page: https://developers.facebook.com/docs/web/tutorials/scrumptious/register-facebook-application/. You may need to specify the exact same bundleID of this application, and you are free to modify it to suit your needs.
+
+After you create you application, in the "Configuration" section, you need to specify the "iOS" platform (even thought this is for OS X cocoa) in the basic information area, and then in "advanced options", select the "Native or desktop app" option. Finally, in the "Status & Review" section, make your application public. Get your AppID and put it in the SMFacebookSocialManager.m file in the line:
+
+```
+#define kTSMFacebookAppID               @"ENTERYOURAPPIDHERE"
+```
+
 # Usage
 
 The project contains several social managers. All of them inherit from SMSocialManager, which defines the methods for dealing with all of them. SMSocialManager is an abstract class, not intended to be instanciated. Currently, there are two social managers ready:
