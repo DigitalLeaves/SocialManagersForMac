@@ -256,7 +256,7 @@
                   }
               }];
          } else {
-             if (self.delegate) [self.delegate socialManager:self loginRefusedWithError:[error localizedDescription]];
+             if ([self.delegate respondsToSelector:@selector(socialManager:loginRefusedWithError:)]) [self.delegate socialManager:self loginRefusedWithError:[error localizedDescription]];
          }
      }];
 }
@@ -305,7 +305,7 @@
                   }
               }];
          } else {
-             if (self.delegate) [self.delegate socialManager:self loginRefusedWithError:[error localizedDescription]];
+             if ([self.delegate respondsToSelector:@selector(socialManager:loginRefusedWithError:)]) [self.delegate socialManager:self loginRefusedWithError:[error localizedDescription]];
          }
      }];
 }
@@ -355,7 +355,7 @@
                   }
               }];
          } else {
-             if (self.delegate) [self.delegate socialManager:self loginRefusedWithError:[error localizedDescription]];
+             if ([self.delegate respondsToSelector:@selector(socialManager:loginRefusedWithError:)]) [self.delegate socialManager:self loginRefusedWithError:[error localizedDescription]];
          }
      }];
 }
