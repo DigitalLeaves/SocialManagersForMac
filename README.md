@@ -1,7 +1,7 @@
 SocialManagersForMac
 ====================
 
-*Edit*: With the new Yosemite OS X release, Apple has changed the look and feel of the sharing dialogs to look closer to iOS, making this project not that essential for a modern look in your sharing dialogs. Still, I like these dialogs better, because they are (in my opinion) more modern looking and polished than the Apple counterparts (i.e: compare the black raw lines of the new Yosemite sharing dialogs with the subtly grey lines of "Social Managers for Mac". Still, you may want to stick to the standard sharing dialogs for your Yosemite Apps.
+**Edit**: With the new Yosemite OS X release, Apple has changed the look and feel of the sharing dialogs to look closer to iOS, making this project not that essential for a modern look in your sharing dialogs. Still, I like these dialogs better, because they are (in my opinion) more modern looking and polished than the Apple counterparts (i.e: compare the black raw lines of the new Yosemite sharing dialogs with the subtly grey lines of "Social Managers for Mac". Still, you may want to stick to the standard sharing dialogs for your Yosemite Apps.
 
 Social Managers for Mac is an attempt to build a collection of Social Managers for Mac including iOS7 like post dialogs. For those who want more control over the sharing funcionality of Mac than the one provided by the NSSharingServicePicker class, including iOS7 like dialogs for sharing for a more modern look in your apps.
 
