@@ -5,7 +5,7 @@ SocialManagersForMac
 
 Social Managers for Mac is an attempt to build a collection of Social Managers for Mac including iOS7 like post dialogs. For those who want more control over the sharing funcionality of Mac than the one provided by the NSSharingServicePicker class, including iOS7 like dialogs for sharing for a more modern look in your apps.
 
-![](http://digitalleaves.com/blog/wp-content/uploads/2014/03/socialManagersForMac.jpg)
+![](http://digitalleaves.com/wp-content/uploads/2014/03/socialManagersForMac.jpg)
 
 Currently Twitter and Facebook are supported. The Social Managers for Mac framework includes post dialogs for every supported social network for posting a message with image and location, with the additional needed parameters (like audience for Facebook or account for twitter). 
 
